@@ -31,9 +31,7 @@ clipboardEl.addEventListener('click', () => {
   const textarea = document.createElement('textarea');
   const password = resultEl.innerText;
 
-  if (!password) {
-    return;
-  }
+  if (!password) return;
 
   textarea.value = password;
   document.body.appendChild(textarea);
