@@ -1,7 +1,6 @@
 :root {
   --primary: #ff6464; /* #3b3b98  */
   --secondary: #543864; /* #23235b  */
-  --tertiary: #ccb064; /* rgba(0, 0, 0, 0.4)  */
 }
 
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
